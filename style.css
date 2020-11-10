@@ -19,11 +19,11 @@
     margin-top: 25px;
     border: 0;
 }
-.navbar-fixed-top, .navbar-fixed-bottom{
+.navbar-fixed-top{
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 800;
 }
 .container {
     width: 1170px;
@@ -39,6 +39,9 @@
 }
 .navber-fixed-top .navbar-collapse {
     max-height: 440px;
+}
+.navbar-default.scrolled {
+    background-color: #fff;
 }
 .navbar-nav > li {
     float: left;
@@ -87,5 +90,37 @@
     width: 100%;
     height: 598px;
     text-align: center;
-    background: url(.) repeat-x left top;
+    background: url(../images/mbanner1.jpg) repeat-x left top;
+}
+.contents {
+    width: 1164px;
+    padding-top: 0;
+}
+.contents img {
+    vertical-align: middle;
+    border: 0;
+}
+.main-visual li {
+    display: inline;
+}
+.main-visual ul li .btn_rolling {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 560px;
+    z-index: 20px;
+    width: 12px;
+    height: 12px;
+    margin: 0 2px;
+    text-indent: 12px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat left;
+}
+.main-visual span a .stop {
+    display: inline-block;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/icon\ bar.png);
+    background-repeat: no-repeat;
 }
