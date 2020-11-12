@@ -85,6 +85,10 @@
 
 
 /* Start Main visual */
+.contents{
+    margin-right: auto;
+    margin-left: auto;
+}
 .main-visual {
     position: relative;
     width: 100%;
@@ -149,22 +153,24 @@
     float: left;
 }
 .banner-wrap {
+    display: block;
     position: relative;   
     max-width: 1920px;
-    margin: 0 auto;
     overflow: hidden;
 }
 .no-margin {
-    margin: 0;
+    width: 1200px;
+    margin: auto;
 }
 .main-banner::after {
     display: block;
     clear: both;
     content: "";
 }
-
+section {
+    margin: auto;
+}
 /* footer */
-
 .footer {
     color: #626d7d;
     font-size: 14px;
@@ -180,11 +186,19 @@
     padding-bottom: 20px;
 }
 
+
 footer a:visited {
     color: #626d7d;
 }
 .col-me-12 {
-    padding: 50px 0px;
+    padding: 20px 0px;
+}
+.footer-right {
+    text-align: right;
+
+}
+.container{
+    width: 1170px;
 }
 
 
