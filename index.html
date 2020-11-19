@@ -6,140 +6,57 @@
     <title>Canon</title>
     <link rel="stylesheet" href="./style/style.css">
 <body>
-    <div id="wrap">
-        <nav class="navbar navbar-default navbar-fixed-top header-wrap scrolled">
-            <div class="container header-menu">
-                <div class="navbar-header">
-                    <button type="button" class="navber-toggle collapsed" data-toggle="collapse" 
-                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    </button>
-                    <a class="navbar-logo" href="./images/logo..png">
-                        <img src="./images/logo..png" alt="logo" style="width:130px; height:100px;">
-                    </a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse header-nav">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a data-target="#" href="" data-toggle="collapse" class="dropdown-toggle" role="button" aria-haspopup="true"
-                                aria-expanded="false">About Canon
-                            </a>
-                        </li>
-                        <li class="dropdown"><a data-target="#" href="" data-toggle="collapse" class="dropdown-toggle" role="button"
-                            aria-haspopup="true" aria-expanded="false">Product
-                        </a>
-                        </li>
-                        <li class="dropdown">
-                            <a data-target="#" href="" data-toggle="collapse"
-                            class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Event
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a date-target="#" href="" data-toggle="collapse" class="dropdown-toggle"
-                            role="button" aria-haspoput="true" aria-expanded="false">Gallery
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="" class="mcontact">문의하기
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header>
+        <div class="container">
+                <img class="logo" src="./images/logo..png">
+            <div class="navbar">
+                <ul>
+                    <li class="dropdown">About Canon</li>
+                    <li class="dropdown">Product</li>
+                    <li class="dropdown">Event</li>
+                    <li class="dropdown">Gallery</li>
+                </ul>
+            <span class="info">문의하기</span>
+        </div>
+    </header>
 
         <!-- <main visual> -->
-        <section class="section">
-            <div id="contents" class="contents">
-                <div class="main-visual" style="overflow: hidden;">
-                    <ul class="moving">
-                        <li>
-                            <a href="#" class="btn-rolling"></a>
-                            <a href="#" class="panel" target="_blank" style="width: 100%; left:-100%">
-                                <img src="./images/mbanner1.jpg" alt="R club 특별사진전" width="1164" height="536">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-rolling"></a>
-                            <a href="#" class="panel" target="_blank" style="width: 100%; left:-100%">
-                                <img src="./images/mbanner2.jpg"  width="1164" height="536">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-rolling"></a>
-                            <a href="#" class="panel" target="_blank" style="width:100%; left:-100%">
-                                <img src="./images/mbanner3.jpg"  width="1164" height="536">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-rolling"></a>
-                            <a href="#" class="panel" target="_blank" style="width: 100%; left:-100%">
-                                <img src="./images/mbanner4.jpg"  width="1164" height="536">
-                            </a>
-                        </li>
-                    </ul>
-                    <span class="btn">
-                        <a href="#" class="stop"></a>
-                    </span>
-                </div>
+    <section class="container">
+        <div class="slider">
+            <ul id="img" class="imgs">
+                <li><img src="./images/mbanner1.jpg"></li>
+                <li><img src="./images/mbanner2.jpg"></li>
+                <li><img src="./images/mbanner3.jpg"></li>
+                <li><img src="./images/mbanner4.jpg"></li>
+            </ul>
+            <div class="button">
+                <label for="slide1">&nbsp;</label>
+                <label for="slide2">&nbsp;</label>
+                <label for="slide3">&nbsp;</label>
+                <label for="slide4">&nbsp;</label>
             </div>
-        </section>
-                <!-- main banner -->
-        <section class="main-banner">        
-            <div class="banner-wrap">
-                <div class="row no-margin">
-                    <div class="col-md-4 col-sm-4 col-xs-12 no-pad">
-                        <a href="#">
-                            <img src="./images/banner_1.png" alt style:margin="auto">
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 no-pad">
-                        <a href="#">
-                            <img src="./images/banner_1.png" alt>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 no-pad">
-                        <a href="#">
-                            <img src="./images/banner_1.png" alt>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="bottom-pad-10">
-                            <a href="" target="_blank">
-                                이용약관</a>
-                                ·
-                                <a href="" target="_blank">개인정보취급방침</a>
-                        </p>
-                        <p class="bottom-pad-20">
-                            서울특별시 강남구 테헤란로 607 5층<br>
-                            Tel: 1588-8133 통신판매업 신고번호: 강남11387호 <br>
-                            사업자등록번호: 123-45-67890 대표자명: YOSHIKAI SHUNJI
-                        </p>
-                    </div>
-                    <div class="col-md-6 bottom-pad-10">
-                        <a href="" target="_blank">
-                            <img src="" alt="canon facebook">
-                        </a>
-                        <a href="" target="_blank">
-                            <img src="" alt="canon youtube">
-                        </a>
-                    </div>
-                    <div class="col-md-6 footer-right txt-en">Copyright ⓒ2020 Twinny Co.,Ltd. All Rights Reserved.         
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </section>
 
 
-            
+        <!-- footer  -->
+    <footer class="footer">
+        <div class="container">
+            <p class="privacy">이용약관·개인정보취급방침</p>
+            <address>
+                서울특별시 강남구 테헤란로 607 5층<br>
+                Tel: 1588-8133 통신판매업 신고번호: 강남11387호 <br>
+                사업자등록번호: 123-45-67890 대표자명: YOSHIKAI SHUNJI
+                </address>
+        </div>
+        <div class="icon">
+            <img src="" alt="canon facebook">
+            <img src="" alt="canon youtube">
+        </div>
+        <div class="copyright">
+            Copyright ⓒ2020 Canon Co.,Ltd. All Rights Reserved.         
+        </div>
+    </footer>
+   
 </body>
 </html>
